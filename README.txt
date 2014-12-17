@@ -88,4 +88,5 @@ $ git config --global core.autocrlf true
 A555364@CLB6CS1 /c/example-17 (master)
 $
 version 2.1.2 for intermediate training diff from staged
-intermediate training diff from staged
+intermediate training diff from staged...
+..

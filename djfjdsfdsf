@@ -1,0 +1,188 @@
+[33mf4d03e7[m diff from HEAD
+[1mdiff --git a/README.txt b/README.txt[m
+[1mindex b2de42e..d9c3aef 100644[m
+[1m--- a/README.txt[m
+[1m+++ b/README.txt[m
+[36m@@ -87,4 +87,5 @@[m [m$ git config --global core.autocrlf true[m
+ [m
+ A555364@CLB6CS1 /c/example-17 (master)[m
+ $[m
+[31m-version 2.1.2[m
+\ No newline at end of file[m
+[32m+[m[32mversion 2.1.2 for intermediate training diff from staged[m
+[32m+[m[32mintermediate training diff from staged[m
+\ No newline at end of file[m
+[33mf516985[m new content
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 8c7fe21..69bc968 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,2 +1,7 @@[m
+ <html>[m
+[32m+[m[32m<head></head>[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m<div> </div>[m
+[32m+[m[32m</body>[m
+ </html>[m
+\ No newline at end of file[m
+[33m7573e10[m changed version number
+[1mdiff --git a/README.txt b/README.txt[m
+[1mindex 8629532..b2de42e 100644[m
+[1m--- a/README.txt[m
+[1m+++ b/README.txt[m
+[36m@@ -87,4 +87,4 @@[m [m$ git config --global core.autocrlf true[m
+ [m
+ A555364@CLB6CS1 /c/example-17 (master)[m
+ $[m
+[31m-version 2[m
+\ No newline at end of file[m
+[32m+[m[32mversion 2.1.2[m
+\ No newline at end of file[m
+[33m64a4e71[m add basic skeleton layouts
+[1mdiff --git a/about.html b/about.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8c7fe21[m
+[1m--- /dev/null[m
+[1m+++ b/about.html[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m<html>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8c7fe21[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m<html>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/locations.html b/locations.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6c70bcf[m
+[1m--- /dev/null[m
+[1m+++ b/locations.html[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<html></html>[m
+\ No newline at end of file[m
+[33m3889995[m ADD LISCENSE DRAFT
+[1mdiff --git a/LISCENSE.txt b/LISCENSE.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4c49b96[m
+[1m--- /dev/null[m
+[1m+++ b/LISCENSE.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mnew file for 2 nd version[m
+\ No newline at end of file[m
+[33m2965bf5[m update formatting
+[1mdiff --git a/README.txt b/README.txt[m
+[1mindex ce283a7..8629532 100644[m
+[1m--- a/README.txt[m
+[1m+++ b/README.txt[m
+[36m@@ -86,4 +86,5 @@[m [mA555364@CLB6CS1 /c/example-17 (master)[m
+ $ git config --global core.autocrlf true[m
+ [m
+ A555364@CLB6CS1 /c/example-17 (master)[m
+[31m-$[m
+\ No newline at end of file[m
+[32m+[m[32m$[m
+[32m+[m[32mversion 2[m
+\ No newline at end of file[m
+[33m98a1324[m Initial commit
+[1mdiff --git a/README.txt b/README.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ce283a7[m
+[1m--- /dev/null[m
+[1m+++ b/README.txt[m
+[36m@@ -0,0 +1,89 @@[m
+[32m+[m[32mWelcome to Git (version 1.9.4-preview20140929)[m
+[32m+[m
+[32m+[m
+[32m+[m[32mRun 'git help git' to display the help index.[m
+[32m+[m[32mRun 'git help <command>' to display help for specific commands.[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 ~[m
+[32m+[m[32m$ ssh-keygen -t rsa -C "prasanna.hegde2@target.com"[m
+[32m+[m[32mGenerating public/private rsa key pair.[m
+[32m+[m[32mEnter file in which to save the key (/h/.ssh/id_rsa):[m
+[32m+[m[32m/h/.ssh/id_rsa already exists.[m
+[32m+[m[32mOverwrite (y/n)? y[m
+[32m+[m[32mEnter passphrase (empty for no passphrase):[m
+[32m+[m[32mEnter same passphrase again:[m
+[32m+[m[32mYour identification has been saved in /h/.ssh/id_rsa.[m
+[32m+[m[32mYour public key has been saved in /h/.ssh/id_rsa.pub.[m
+[32m+[m[32mThe key fingerprint is:[m
+[32m+[m[32me6:a4:30:4d:7e:73:75:55:87:ce:04:cc:a5:6d:f6:82 prasanna.hegde2@target.com[m
+[32m+[m[32mThe key's randomart image is:[m
+[32m+[m[32m+--[ RSA 2048]----+[m
+[32m+[m[32m|           o.o..=|[m
+[32m+[m[32m|            ooo..|[m
+[32m+[m[32m|      .     o+=  |[m
+[32m+[m[32m|     +     . =o. |[m
+[32m+[m[32m|    o o S . E . .|[m
+[32m+[m[32m|     o * o     . |[m
+[32m+[m[32m|      . .        |[m
+[32m+[m[32m|                 |[m
+[32m+[m[32m|                 |[m
+[32m+[m[32m+-----------------+[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 ~[m
+[32m+[m[32m$ clip < ~/.ssh/id_rsa.pub[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 ~[m
+[32m+[m[32m$ git config user.name[m
+[32m+[m[32mA555365[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 ~[m
+[32m+[m[32m$ pwd[m
+[32m+[m[32m/h[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 ~[m
+[32m+[m[32m$ cd /c[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c[m
+[32m+[m[32m$ pwd[m
+[32m+[m[32m/c[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c[m
+[32m+[m[32m$ git init example-17[m
+[32m+[m[32mInitialized empty Git repository in c:/example-17/.git/[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c[m
+[32m+[m[32m$ cd example-17[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ pwd[m
+[32m+[m[32m/c/example-17[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ git config --local user.name[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ git config --local user.name "GitHub Student"[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ git config --local user.email "prasanna.hegde2@target.com"[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ git config --local --list[m
+[32m+[m[32mcore.repositoryformatversion=0[m
+[32m+[m[32mcore.filemode=false[m
+[32m+[m[32mcore.bare=false[m
+[32m+[m[32mcore.logallrefupdates=true[m
+[32m+[m[32mcore.symlinks=false[m
+[32m+[m[32mcore.ignorecase=true[m
+[32m+[m[32mcore.hidedotfiles=dotGitOnly[m
+[32m+[m[32muser.name=GitHub Student[m
+[32m+[m[32muser.email=prasanna.hegde2@target.com[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ git config --global color.ui auto[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$ git config --global core.autocrlf true[m
+[32m+[m
+[32m+[m[32mA555364@CLB6CS1 /c/example-17 (master)[m
+[32m+[m[32m$[m
+\ No newline at end of file[m
